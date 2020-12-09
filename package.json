@@ -1,0 +1,18 @@
+{
+  "name": "framework-arancino-samd",
+  "version": "1.2.0",
+  "description": "The official SmartME Wiring-based Framework for Microchip SAM D microcontrollers",
+  "keywords": [
+    "framework",
+    "arancino",
+    "smartme",
+    "microchip",
+    "samd"
+  ],
+  "homepage": "https://www.arduino.cc/reference/en",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arduino/ArduinoCore-samd"
+  }
+}
