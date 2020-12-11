@@ -1,5 +1,5 @@
 {
-  "name": "framework-arancino-samd",
+  "name": "framework-arduino-samd-arancino",
   "version": "1.2.0",
   "description": "The official SmartME Wiring-based Framework for Microchip SAM D microcontrollers",
   "keywords": [
