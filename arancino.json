@@ -3,7 +3,7 @@
     "arduino": {
         "ldscript": "flash_with_bootloader.ld"
     },
-    "core": "arduino",
+    "core": "arancino",
     "cpu": "cortex-m0plus",
     "board": "SAMD_ARANCINO",
     "extra_flags": "-DARDUINO_SAMD_ZERO -DARDUINO_ARCH_SAMD -D__SAMD21G18A__",
@@ -16,11 +16,11 @@
     ],
     "mcu": "samd21g18a",
     "usb_product": "Arancino",
-    "variant": "arduino_zero"
+    "variant": "arancino"
   },
   "bootloader": {
     "tool": "openocd",
-    "file": "zero/samd21_sam_ba.bin"
+    "file": "arancino/samd21_sam_ba_arancino.bin"
   },
   "connectivity": [
     "ethernet",
@@ -41,15 +41,16 @@
     "maximum_size": 262144,
     "native_usb": true,
     "offset_address": "0x2000",
-    "protocol": "sam-ba",
+    "protocol": "arancino-ota",
     "protocols": [
       "sam-ba",
+      "arancino-ota",
       "blackmagic",
       "jlink",
       "atmel-ice"
     ],
     "require_upload_port": true,
-    "use_1200bps_touch": true,
+    "use_1200bps_touch": false,
     "wait_for_upload_port": true
   },
   "url": "http://smartme.io/it/projects/arancino-cc-2/",

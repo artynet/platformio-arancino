@@ -3,7 +3,7 @@
     "arduino": {
         "ldscript": "flash_with_bootloader.ld"
     },
-    "core": "arduino",
+    "core": "arancino",
     "cpu": "cortex-m0plus",
     "board": "SAMD_ARANCINO",
     "extra_flags": "-DARDUINO_SAMD_ZERO -DARDUINO_ARCH_SAMD -D__SAMD21G18A__",
@@ -16,11 +16,11 @@
     ],
     "mcu": "samd21g18a",
     "usb_product": "Arancino Mignon",
-    "variant": "arduino_zero"
+    "variant": "arancino"
   },
   "bootloader": {
     "tool": "openocd",
-    "file": "zero/samd21_sam_ba.bin"
+    "file": "arancino/samd21_sam_ba_arancino_mignon.bin"
   },
   "connectivity": [
     "ethernet",
@@ -44,6 +44,7 @@
     "protocol": "sam-ba",
     "protocols": [
       "sam-ba",
+      "arancino-ota",
       "blackmagic",
       "jlink",
       "atmel-ice"
