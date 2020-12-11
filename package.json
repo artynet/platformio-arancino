@@ -9,7 +9,7 @@
     "microchip",
     "samd"
   ],
-  "homepage": "https://www.arduino.cc/reference/en",
+  "homepage": "https://arancino.cc/docs/",
   "license": "LGPL-2.1-or-later",
   "repository": {
     "type": "git",
